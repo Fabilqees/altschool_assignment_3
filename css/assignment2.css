@@ -1,0 +1,119 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
+  header {
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 0px 0px 8px 0px;
+    padding-left: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 30px;
+    border-bottom: 8px solid #999999;
+  }
+  #para1 {
+    width: 415px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  span {
+    font-weight: 800;
+    color: green;
+  }
+  #para2 {
+    width: 312px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .section1 {
+    background-color: #666666;
+    padding-left: 20rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .main {
+    background-color: #ffffff;
+    width: 72%;
+    position: relative;
+    border-bottom: 8px solid #999999;
+  }
+  
+  #para3,
+  #para4 {
+    /* width: 90%;
+    font-size: 20px; */
+    line-height: 30px;
+    padding-left: 20px;
+  }
+  h2 {
+    position: absolute;
+    /* width: 334px; */
+    height: 29px;
+    top: -20px;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .card {
+    top: 8px;
+    position: absolute;
+    left: -10px;
+    width: 57%;
+    height: 45px;
+    max-width: 450px;
+    background: #ffbf00;
+    border-bottom: 8px solid #cc9900;
+  }
+  .card2 {
+    width: 72%;
+    padding: 55px 5px 5px;
+  }
+  @media (max-width: 1024px) {
+    .section1 {
+      width: 989px;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      padding-left: 0px;
+    }
+    .card {
+      top: 4px;
+    }
+    header {
+      padding-left: 30px;
+    }
+   
+    .main {
+      width: 100%;
+    }
+  }
+  @media (max-width: 600px) {
+    .section1 {
+      width: 484px;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      padding-left: 0px;
+    }
+    header {
+      padding-left: 20px;
+    }
+    .card {
+      height: 70px;
+    }
+    #para3,
+    #para4 {
+      padding-top: 30px;
+    }
+  }
+  

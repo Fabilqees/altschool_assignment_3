@@ -1,0 +1,98 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+section{
+    height: 100vh;
+    align-items: center;
+    margin-inline: 100px;
+    margin-block: 20px ;
+}
+
+/*header styling*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.logo{
+    display: inline;
+    align-items: baseline;
+}
+
+.logo img{
+    height: 30px;
+    width: 30px;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    transform: all 0.3s ease 0s;
+}
+
+
+
+/*body*/
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    margin: 50px;
+}
+
+.image{
+    justify-self: center;
+}
+
+#optimize{
+    font-size: 55px;
+    margin-block: 20px;
+    padding-bottom: 50px;
+    line-height: 96px;
+    text-align: center;
+}
+
+.head {
+    color: #005AE2;
+}
+
+
+/*section2*/
+
+.one{
+    display: flex;
+    flex-direction: column;
+}
+#first_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stacked_text{
+    
+}
